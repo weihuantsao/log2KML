@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+    <Document> 
+        <name>GPS Path</name> 
+        <description>Path parsed from GPS data.</description> 
+        <Style id="yellowLineGreenPoly"> 
+            <LineStyle> 
+                <color>7f00ffff</color> 
+                <width>4</width> 
+                <gx:labelvisibility>0</gx:labelvisibility> 
+            </LineStyle> 
+            <PolyStyle> 
+                <color>7f00ff00</color> 
+            </PolyStyle> 
+        </Style> 
+
+        <Placemark> 
+            <name>Path</name> 
+            <styleUrl>#yellowLineGreenPoly</styleUrl> 
+            <LineString>  
+                <tessellate>1</tessellate> 
+                <coordinates>
+ 120.993206,24.795482,0
+ 120.996897,24.795463,0
+ 121.002090,24.794021,0
+ 121.001837,24.793342,0
+ 121.004133,24.791141,0
+ 121.010292,24.793693,0
+ 121.009476,24.789738,0
+ 121.010914,24.787576,0
+ 121.011450,24.785998,0
+ 121.010313,24.783465,0
+ 121.011257,24.783076,0
+ 121.009862,24.780524,0
+ 121.009326,24.778809,0
+ 121.014905,24.775653,0
+ 121.010210,24.774661,0
+ 121.014866,24.773064,0
+
+                </coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>2014-9-16 1:26:24 </name> 
+            <description>
+20.5
+
+
+            </description>
+            <styleUrl>#msn_ylw-pushpin</styleUrl>
+            <Point>
+                <coordinates> 121.001837,24.793342,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>2014-9-16 1:34:24 </name> 
+            <description>
+500
+ 25 
+11.2235 
+ 53548
+
+
+            </description>
+            <styleUrl>#msn_ylw-pushpin</styleUrl>
+            <Point>
+                <coordinates> 121.010914,24.787576,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>2014-9-16 1:44:24 </name> 
+            <description>
+500
+ 25
+
+
+            </description>
+            <styleUrl>#msn_ylw-pushpin</styleUrl>
+            <Point>
+                <coordinates> 121.009326,24.778809,0</coordinates>
+            </Point>
+        </Placemark>
+
+    </Document>
+</kml>

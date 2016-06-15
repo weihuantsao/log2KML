@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+    <Document> 
+        <name>GPS Path</name> 
+        <description>Path parsed from GPS data.</description> 
+        <Style id="yellowLineGreenPoly"> 
+            <LineStyle> 
+                <color>7f00ffff</color> 
+                <width>4</width> 
+                <gx:labelvisibility>0</gx:labelvisibility> 
+            </LineStyle> 
+            <PolyStyle> 
+                <color>7f00ff00</color> 
+            </PolyStyle> 
+        </Style> 
+
+        <Placemark> 
+            <name>Path</name> 
+            <styleUrl>#yellowLineGreenPoly</styleUrl> 
+            <LineString>  
+                <tessellate>1</tessellate> 
+                <coordinates>
+120.997311667,24.788815,110.2
+120.997311667,24.788815,110.2
+120.997311667,24.788815,110.2
+120.997311667,24.788815,110.2
+120.997311667,24.788815,110.3
+
+                </coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
